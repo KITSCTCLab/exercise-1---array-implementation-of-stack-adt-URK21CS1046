@@ -23,7 +23,7 @@ class Stack:
             stack.pop(data)        # Write code here
 
     def status(self):
-        for elements in stacks:
+        for elements in self.items:
             print(elements)
         # Write code here
 

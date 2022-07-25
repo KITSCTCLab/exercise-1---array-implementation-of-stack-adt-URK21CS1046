@@ -5,14 +5,14 @@ class Stack:
         self.size = size
 
     def is_empty(self):
-        if self.item == "":
+        if self.items == "":
             return True
         else:
             return False
         # Write code here
 
     def is_full(self):
-        if self.item >self.size
+        if self.items > self.size:
             return True
         else:
             return False
